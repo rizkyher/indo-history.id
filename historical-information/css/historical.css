@@ -1,3 +1,10 @@
+/* judul */
+
+.judul {
+  margin-top: 3rem;
+  text-align: center;
+}
+
 /* bagian card project */
 
 nav {
@@ -9,13 +16,6 @@ nav {
 }
 .card {
   margin-top: 6rem;
-}
-
-/* judul */
-
-.judul {
-  margin-top: 3rem;
-  text-align: center;
 }
 
 /* footer */
