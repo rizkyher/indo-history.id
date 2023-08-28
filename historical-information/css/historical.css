@@ -20,12 +20,6 @@ nav {
 
 /* footer */
 
-/* icon sosmed */
-
-.bi {
-  font-size: 1.2rem;
-}
-
-.sosmed a {
-  text-decoration: none;
+footer {
+  margin-top: 10rem;
 }
