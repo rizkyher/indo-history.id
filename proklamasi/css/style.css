@@ -11,7 +11,12 @@
 section {
     width:100% ;
     min-height: 70%;
+    background: url(../image/bg-removebg-preview.png);
+    background-size:cover;
+    background-position-x: center;
+    background-position-y: center;
 }
+
 
 .navbar-brand img {
     width: 10rem;
