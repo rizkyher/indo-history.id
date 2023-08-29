@@ -1,3 +1,29 @@
-.nav {
-  background-color: aqua;
+* {
+  scroll-behavior: smooth;
+}
+
+section {
+  width: 100%;
+  min-height: 70%;
+}
+
+nav {
+  background: linear-gradient(90deg, #820404 33.43%, #c24242 74.37%);
+}
+
+.navbar-brand img {
+  width: 8rem;
+}
+
+.nav-link {
+  color: rgb(200, 200, 200);
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link active .nav-profile .nav-link {
+  position: absolute;
+  right: 30px;
 }
