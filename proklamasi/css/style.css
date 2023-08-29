@@ -71,7 +71,43 @@ section {
 }
 
 .home .btn:hover {
-    color: red;
-    background-color: white;
+    color: rgb(152, 152, 152);
+    background-color: white ;
     
+}
+
+.about {
+    color: white;
+    
+    
+}
+
+.home .col h1 {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.col h2 {
+    margin: 5%;
+}
+
+.col p {
+    
+    font-size: x-large;
+    font-style: bold;
+
+    text-shadow: 10px ;
+    
+}
+
+.about .btn {
+    background-color: red
+}
+
+.about .btn:hover {
+    
+}
+
+.col span {
+    color: red;
 }
