@@ -8,10 +8,13 @@
     scroll-behavior: smooth;
 }
 
+body{
+    background: lightgray 50% !important ;
+}
 section {
     width:100% ;
     min-height: 70%;
-    background: url(../image/bg-removebg-preview.png);
+    background: url(../image/bg-removebg-preview.png), lightgray 50% ;
     background-size:cover;
     background-position-x: center;
     background-position-y: center;
