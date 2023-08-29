@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../../../agustus"
+	},
+	{
+		"path": "../../../belajar-git/personal-web"
+	},
+	{
+		"path": "../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "personal-web"
+  }
+}

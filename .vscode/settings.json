@@ -1,0 +1,7 @@
+{
+  "prettier.printWidth": 240,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "html.format.enable": true
+}
