@@ -66,7 +66,7 @@ section {
 }
 
 .home .btn:hover {
-    color: rgb(152, 152, 152);
+    color: red;
     background-color: white ;
     
 }
@@ -107,4 +107,46 @@ section {
 
 .col span {
     color: red;
+}
+
+.btn2 {
+    color: white;
+    background-color: red;
+}
+
+.about .btn2 a:hover {
+    color: red;
+    background-color: white;
+}
+
+/* section history */
+
+section .history1 .history2 .history3 {
+    width:100% ;
+    min-height: 100%;
+    padding: 15rem;
+    background: url(../image/bg-removebg-preview.png);
+    background-size:cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+}
+
+/* history1 hiroshima*/
+
+
+.history1 .col p {
+    font-size: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* history2 nagasaki*/
+
+.history2 .col p {
+    font-size: small;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
