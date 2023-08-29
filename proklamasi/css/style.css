@@ -18,6 +18,8 @@ section {
 }
 
 
+
+/*navbar*/
 .navbar-brand img {
     width: 10rem;
 }
@@ -35,12 +37,15 @@ section {
     font-family: Engravers MT;
 }
 
+
+/*Home*/
+
 .home .col h1,h3,h5 {
     background: red;
     border-radius: .5rem;
     color: white !important;
 }
-.col h1{
+.home .col h1{
     width: 60%;
     margin-left: 20%;
 }
@@ -52,16 +57,6 @@ section {
 .col h3{
     width: 85%;
     margin-left: 8%;
-}
-.about {
-    padding: 10rem 9%;
-}
-
-.container-about {
-    background: url(../image/bg2.jpeg);
-    width: 100%;
-    height: 100%;
-    background-size: cover;
 }
 
 
@@ -75,36 +70,38 @@ section {
     background-color: white ;
     
 }
+/*about*/
 
 .about {
+    padding: 10rem 9%;
     color: white;
-    
-    
 }
 
-.home .col h1 {
-    width: 20%;
-    margin-left: 40%;
+.container-about {
+    background: url(../image/bg2.jpeg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 
-.col h2 {
+.about .col h2 {
     margin: 5%;
 }
 
-.col p {
-    
+.about .col p {
     font-size: x-large;
     font-style: bold;
-
     text-shadow: 10px ;
     
 }
 
 .about .btn {
-    background-color: red
+    background-color: red;
+    color: white;
 }
 
-.about .btn:hover {
+.about .btn a:hover {
+    color: red;
     
 }
 
