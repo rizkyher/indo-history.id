@@ -1,3 +1,10 @@
+/* judul */
+
+.judul {
+  margin-top: 3rem;
+  text-align: center;
+}
+
 /* bagian card project */
 
 nav {
@@ -11,21 +18,8 @@ nav {
   margin-top: 6rem;
 }
 
-/* judul */
-
-.judul {
-  margin-top: 3rem;
-  text-align: center;
-}
-
 /* footer */
 
-/* icon sosmed */
-
-.bi {
-  font-size: 1.2rem;
-}
-
-.sosmed a {
-  text-decoration: none;
+footer {
+  margin-top: 10rem;
 }
