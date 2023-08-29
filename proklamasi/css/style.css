@@ -22,6 +22,37 @@ section {
     width: 10rem;
 }
 
+.nav-item{
+    font-family: Engravers MT;
+    font-size: small;
+}
+
+.nav-item a:hover,
+.nav-item a.active{
+    color: red !important;
+}
+.col {
+    font-family: Engravers MT;
+}
+
+.home .col h1,h3,h5 {
+    background: red;
+    border-radius: .5rem;
+    color: white !important;
+}
+.col h1{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.col h5 {
+    width: 47%;
+    margin-left: 25%;
+}
+.col h3{
+    width: 85%;
+    margin-left: 8%;
+}
 .about {
     padding: 10rem 9%;
 }
@@ -33,3 +64,14 @@ section {
     background-size: cover;
 }
 
+
+.home .btn {
+    background: red;
+    color: white;
+}
+
+.home .btn:hover {
+    color: red;
+    background-color: white;
+    
+}
