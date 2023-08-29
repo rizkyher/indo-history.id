@@ -4,3 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+nav {
+  background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%);
+}
