@@ -4,3 +4,17 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+nav {
+  background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%);
+}
+
+footer {
+  margin-top: 33%;
+}
+
+.container1 {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}

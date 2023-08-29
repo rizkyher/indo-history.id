@@ -18,12 +18,63 @@ section {
 }
 
 
+
+/*navbar*/
 .navbar-brand img {
     width: 10rem;
 }
 
+.nav-item{
+    font-family: Engravers MT;
+    font-size: small;
+}
+
+.nav-item a:hover,
+.nav-item a.active{
+    color: red !important;
+}
+.col {
+    font-family: Engravers MT;
+}
+
+
+/*Home*/
+
+.home .col h1,h3,h5 {
+    background: red;
+    border-radius: .5rem;
+    color: white !important;
+}
+.home .col h1{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.col h5 {
+    width: 47%;
+    margin-left: 25%;
+}
+.col h3{
+    width: 85%;
+    margin-left: 8%;
+}
+
+
+.home .btn {
+    background: red;
+    color: white;
+}
+
+.home .btn:hover {
+    color: red;
+    background-color: white ;
+    
+}
+/*about*/
+
 .about {
     padding: 10rem 9%;
+    color: white;
 }
 
 .container-about {
@@ -33,3 +84,69 @@ section {
     background-size: cover;
 }
 
+.about .col h2 {
+    margin: 5%;
+}
+
+.about .col p {
+    font-size: x-large;
+    font-style: bold;
+    text-shadow: 10px ;
+    
+}
+
+.about .btn {
+    background-color: red;
+    color: white;
+}
+
+.about .btn a:hover {
+    color: red;
+    
+}
+
+.col span {
+    color: red;
+}
+
+.btn2 {
+    color: white;
+    background-color: red;
+}
+
+.about .btn2 a:hover {
+    color: red;
+    background-color: white;
+}
+
+/* section history */
+
+section .history1 .history2 .history3 {
+    width:100% ;
+    min-height: 100%;
+    padding: 15rem;
+    background: url(../image/bg-removebg-preview.png);
+    background-size:cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+}
+
+/* history1 hiroshima*/
+
+
+.history1 .col p {
+    font-size: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* history2 nagasaki*/
+
+.history2 .col p {
+    font-size: small;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

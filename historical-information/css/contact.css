@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+nav {
+  background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%);
+}
+
+footer {
+  margin-top: 33%;
+}
