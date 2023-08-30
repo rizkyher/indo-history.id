@@ -44,9 +44,9 @@ section {
 /*Home*/
 
 .home .col h1,h3,h5 {
-    background: red;
+    background: ;
     border-radius: .5rem;
-    color: white !important;
+    color: black !important;
 }
 .home .col h1{
     width: 60%;
