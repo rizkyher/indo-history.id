@@ -1,0 +1,31 @@
+/* bagian card project */
+
+nav {
+    background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%);
+  }
+  .daftar-sejarah {
+    display: flex;
+    justify-content: space-around;
+  }
+  .card {
+    margin-top: 6rem;
+  }
+  
+  /* judul */
+  
+  .judul {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  /* footer */
+  
+  /* icon sosmed */
+  
+  .bi {
+    font-size: 1.2rem;
+  }
+  
+  .sosmed a {
+    text-decoration: none;
+  }

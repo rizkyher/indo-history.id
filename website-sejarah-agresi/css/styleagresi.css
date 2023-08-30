@@ -1,0 +1,32 @@
+* {
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    width: 100%;
+    min-height: 70%;
+  }
+  
+.navbar-nav  {
+    background: linear-gradient(90deg, #820404 33.43%, #c24242 74.37%);
+    position: absolute;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .navbar-brand img {
+    width: 8rem;
+  }
+  
+  .nav-link {
+    color: rgb(255, 0, 0);
+  }
+  
+  .nav-link:hover {
+    color: red;
+  }
+  
+  .nav-link active .nav-profile .nav-link {
+    position: absolute;
+    right: 30px;
+  }
