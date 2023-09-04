@@ -7,11 +7,33 @@
 
 nav {
   background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%);
+  height: ;
 }
 
 footer {
   margin-top: 33%;
 }
+
+/* icon sosmed */
+.social-media {
+  display: flex;
+  gap: 25px;
+  font-size: 30px;
+  justify-content: center;
+}
+.Copyright {
+  padding-bottom: 2rem;
+}
+
+.Copyright span {
+  color: black;
+}
+.Copyright a {
+  text-decoration: none;
+}
+
+
+
 
 .contact {
   margin-left: 10%;
