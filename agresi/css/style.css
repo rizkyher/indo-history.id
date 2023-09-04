@@ -6,20 +6,10 @@ nav {
   width: 6rem;
 }
 
-body {
-  background: url('../peta.png');
+section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 1rem 3%;
+  background: url(../peta.png);
   background-size: cover;
-}
-
-.deskripsi {
-  font-size: 1rem;
-  position: absolute;
-  justify-content: space-around;
-  text-align: left;
-  margin-top: 0;
-  margin-left: 48rem;
-  margin-bottom: 1rem;
-}
-
-.container2 {
 }
