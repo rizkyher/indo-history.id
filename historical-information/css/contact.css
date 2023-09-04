@@ -7,11 +7,17 @@
 
 nav {
   background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%);
-  height: ;
+
 }
 
+.container1{
+  font-size: 0.9rem ;
+}
+
+
+
 footer {
-  margin-top: 33%;
+  margin-top: 20%;
 }
 
 /* icon sosmed */
