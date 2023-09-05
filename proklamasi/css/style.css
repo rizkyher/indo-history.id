@@ -124,10 +124,11 @@ section {
 
 /* section history */
 
-section .history1 .history2 .history3 {
+section .history1, .history2, .history3, .history4 {
     width:100% ;
     min-height: 100%;
-    padding: 15rem;
+    padding: 7rem;
+    
     background: url(../image/bg-removebg-preview.png);
     background-size:cover;
     background-position-x: center;
@@ -135,21 +136,32 @@ section .history1 .history2 .history3 {
 }
 
 
+
+
 /* history1 hiroshima*/
 
 
 .history1 .col p {
-    font-size: 5px;
+    font-size: 1rem;
     text-align: center;
     align-items: center;
     justify-content: center;
+    padding-top: .3rem;
 }
 
 /* history2 nagasaki*/
 
 .history2 .col p {
-    font-size: small;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    font-size: 1rem;
+   
+    font-weight: bold;
+   padding-block: 1rem;
+    margin-inline: -5rem;
+   
+    
 }
+
+.history2 img {
+    margin-right: 15rem;
+}
+
