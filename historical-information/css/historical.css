@@ -22,14 +22,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
 /* bagian card project */
 
 nav {
@@ -42,6 +34,16 @@ nav {
 }
 .card {
   margin-top: 6rem;
+  height: fit-content
+}
+.card img {
+  height: 150px;
+}
+.card h5 {
+  text-align: center;
+}
+.card-body a {
+  align-content: baseline;
 }
 
 /* footer */
