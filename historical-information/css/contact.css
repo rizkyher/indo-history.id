@@ -97,3 +97,17 @@ body{
 
 }
 
+@media screen and (max-width: 767px) {
+  .btncontact{
+    display: block;
+    position: relative;
+    top: 170px;
+    left: 70px;
+  }
+  .comment{
+    position: relative;
+    bottom: 55px;
+  }
+}
+
+
