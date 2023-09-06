@@ -7,34 +7,12 @@
 
 nav {
   background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%);
-
-}
-
-
-footer {
-  margin-top: 5%;
-}
-
-/* icon sosmed */
-.social-media {
-  display: flex;
-  gap: 25px;
-  font-size: 30px;
-  justify-content: center;
-}
-.Copyright {
-  padding-bottom: 2rem;
-}
-
-.Copyright span {
-  color: black;
-}
-.Copyright a {
-  text-decoration: none;
+  
 }
 
 
 
+/* layout */
 
 body{
   background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
@@ -80,6 +58,8 @@ body{
   font-weight: 600;
   color: #fff;
   cursor: pointer;
+  position: relative;
+  left: 25%;
 }
 .btncontactsubmit{
   width: 50%;
@@ -109,5 +89,36 @@ body{
     bottom: 55px;
   }
 }
+
+
+
+/* footer */
+
+footer {
+  margin-top: 5%;
+}
+
+
+
+/* icon sosmed */
+.social-media {
+  display: flex;
+  gap: 25px;
+  font-size: 30px;
+  justify-content: center;
+}
+.Copyright {
+  padding-bottom: 2rem;
+}
+
+.Copyright span {
+  color: black;
+}
+.Copyright a {
+  text-decoration: none;
+}
+
+
+
 
 
