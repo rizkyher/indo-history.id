@@ -7,34 +7,12 @@
 
 nav {
   background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%);
-
-}
-
-
-footer {
-  margin-top: 5%;
-}
-
-/* icon sosmed */
-.social-media {
-  display: flex;
-  gap: 25px;
-  font-size: 30px;
-  justify-content: center;
-}
-.Copyright {
-  padding-bottom: 2rem;
-}
-
-.Copyright span {
-  color: black;
-}
-.Copyright a {
-  text-decoration: none;
+  
 }
 
 
 
+/* layout */
 
 body{
   background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
@@ -80,6 +58,8 @@ body{
   font-weight: 600;
   color: #fff;
   cursor: pointer;
+  position: relative;
+  left: 25%;
 }
 .btncontactsubmit{
   width: 50%;
@@ -97,6 +77,16 @@ body{
 
 }
 
+@media screen and (max-width: 1125px) {
+  .btncontact{
+  
+    font-size: 0.8em;
+  }
+  .comment{
+  
+  }
+}
+
 @media screen and (max-width: 767px) {
   .btncontact{
     display: block;
@@ -109,5 +99,50 @@ body{
     bottom: 55px;
   }
 }
+
+@media screen and (max-width: 645px) {
+  .btncontact{
+    display: block;
+    position: relative;
+    top: 170px;
+    left: 23%;
+    font-size: 0.8em;
+  }
+  .comment{
+    position: relative;
+    bottom: 55px;
+  }
+}
+
+
+
+/* footer */
+
+footer {
+  margin-top: 5%;
+}
+
+
+
+/* icon sosmed */
+.social-media {
+  display: flex;
+  gap: 25px;
+  font-size: 30px;
+  justify-content: center;
+}
+.Copyright {
+  padding-bottom: 2rem;
+}
+
+.Copyright span {
+  color: black;
+}
+.Copyright a {
+  text-decoration: none;
+}
+
+
+
 
 
