@@ -15,6 +15,9 @@ nav {
   justify-content: space-around;
   padding: 5rem !important;
 }
+.container-card .item {
+  width: 18rem;
+}
 
 /* footer */
 .container-footer {
@@ -33,7 +36,11 @@ footer {
     align-items: center;
     justify-content: space-around;
     gap: 3rem;
-    
+  }
+  .container-card .item {
+    background-color: aquamarine !important;
+    width: 1rem !important;
+    height: auto !important;
   }
 }
 
@@ -45,5 +52,9 @@ footer {
     flex-wrap: wrap !important;
     gap: 3rem !important;
     padding: 3rem !important;
+  }
+  .container-card .item {
+    width: 12rem !important;
+    height: auto !important;
   }
 }
