@@ -1,74 +1,49 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none
-  box-sizing: ;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-/* bagian body */
-body {
-}
-/* bagian navigasi */
-/* .navbar-costum {
-  height: 50px; */
-
-/* judul */
-
-.judul {
-  margin-top: 3rem;
-  padding-left: 6rem;
-  justify-content: space-around;
-  color: rgb(170, 166, 161);
-}
-
-.garis-bawah {
-  width: 50rem;
-  margin-left: 5rem;
-}
-
-
-/* bagian card project */
 
 nav {
   background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%);
 }
-.daftar-sejarah {
+
+/* project */
+.container-card {
   display: flex;
   justify-content: space-around;
-  margin-top: -2rem;
-}
-.card {
-  margin-top: 6rem;
-  height: fit-content
-}
-.card img {
-}
-.card h5 {
-  text-align: center;
-}
-.card-body a {
-  align-content: baseline;
+  padding: 5rem !important;
 }
 
 /* footer */
-
+.container-footer {
+  margin: 0 !important;
+}
 footer {
-  margin-top: 10rem;
+  background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%) !important;
 }
 
-/* icon sosmed */
-.social-media {
-  display: flex;
-  gap: 25px;
-  font-size: 30px;
-  justify-content: center;
-}
-.Copyright {
-  padding-bottom: 2rem;
+/* responsive  mobile*/
+
+@media screen and (max-width: 600px) {
+  .container-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    
+  }
 }
 
-.Copyright span {
-  color: black;
-}
-.Copyright a {
-  text-decoration: none;
+/* responsive tab */
+
+@media screen and (max-width: 768px) {
+  .container-card {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 3rem !important;
+    padding: 3rem !important;
+  }
 }
