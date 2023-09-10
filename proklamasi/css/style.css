@@ -21,8 +21,16 @@ section {
 }
 
 
-
 /*navbar*/
+.nav {
+    background-color: #713B3B;
+    height: 3rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.nav a {
+    color: white;
+}
 .navbar-brand img {
     width: 10rem;
 }
@@ -40,6 +48,13 @@ section {
     font-family: Engravers MT;
 }
 
+.dropdown-menu a {
+    color: white;
+    background-color: #713B3B
+}
+.dropdown-menu a:active{
+    color: red
+}
 
 /*Home*/
 

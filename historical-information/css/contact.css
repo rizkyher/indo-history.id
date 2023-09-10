@@ -77,12 +77,36 @@ body{
 
 }
 
+@media screen and (max-width: 1125px) {
+  .btncontact{
+  
+    font-size: 0.8em;
+  }
+  .comment{
+  
+  }
+}
+
 @media screen and (max-width: 767px) {
   .btncontact{
     display: block;
     position: relative;
     top: 170px;
     left: 23%;
+  }
+  .comment{
+    position: relative;
+    bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .btncontact{
+    display: block;
+    position: relative;
+    top: 170px;
+    left: 23%;
+    font-size: 0.8em;
   }
   .comment{
     position: relative;
