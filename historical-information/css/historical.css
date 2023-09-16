@@ -6,18 +6,11 @@
 }
 
 nav {
-  background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%);
+  background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%) !important;
 }
 
 /* project */
-.container-card {
-  display: flex;
-  justify-content: space-around;
-  padding: 5rem !important;
-}
-.container-card .item {
-  width: 18rem;
-}
+
 
 /* footer */
 .container-footer {
@@ -37,11 +30,6 @@ footer {
     justify-content: space-around;
     gap: 3rem;
   }
-  .container-card .item {
-    background-color: aquamarine !important;
-    width: 1rem !important;
-    height: auto !important;
-  }
 }
 
 /* responsive tab */
@@ -53,8 +41,5 @@ footer {
     gap: 3rem !important;
     padding: 3rem !important;
   }
-  .container-card .item {
-    width: 12rem !important;
-    height: auto !important;
-  }
+
 }
