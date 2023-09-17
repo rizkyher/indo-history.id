@@ -13,28 +13,17 @@ body{
 }
 section {
     width:100% ;
-    min-height: 70%;
-    background: url(../image/bg-removebg-preview.png), lightgray 50% ;
+    min-height: 100%;
+    background: url(../image/bg-removebg-preview.png), lightgray ;
     background-size:cover;
     background-position-x: center;
     background-position-y: center;
+    margin-bottom: 10rem;
+    
 }
 
 
 /*navbar*/
-.nav {
-    background-color: #713B3B;
-    height: 3rem;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-}
-.nav a {
-    color: white;
-}
-.navbar-brand img {
-    width: 10rem;
-}
-
 .nav-item{
     font-family: Engravers MT;
     font-size: small;
@@ -57,43 +46,17 @@ section {
 }
 
 /*Home*/
-
-.home .col h1,h3,h5 {
-    background: ;
-    border-radius: .5rem;
-    color: black !important;
-}
-.home .col h1{
-    width: 60%;
-    margin-left: 20%;
+.home {
+    padding-top: 5rem;
 }
 
-.col h5 {
-    width: 47%;
-    margin-left: 25%;
-}
-.col h3{
-    width: 85%;
-    margin-left: 8%;
-}
-
-
-.home .btn {
-    background: red;
-    color: white;
-}
-
-.home .btn:hover {
-    color: red;
-    background-color: white ;
-    
+.img-thumbnail{
+    background: transparent !important;
+    border: 0 !important;
 }
 /*about*/
 
-.about {
-    padding: 10rem 9%;
-    color: white;
-}
+
 
 .container-about {
     background: url(../image/bg2.jpeg);
