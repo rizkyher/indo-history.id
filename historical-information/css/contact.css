@@ -117,11 +117,12 @@ body{
 
 
 /* footer */
-
-footer {
-  margin-top: 5%;
+.container-footer {
+  margin: 0 !important;
 }
-
+footer {
+  background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%) !important;
+}
 
 
 /* icon sosmed */
