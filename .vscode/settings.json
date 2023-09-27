@@ -4,5 +4,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": false,
   "html.format.enable": true,
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
