@@ -9,12 +9,12 @@
 }
 
 body{
-    background: lightgray 50% !important ;
+    background: rgb(107, 107, 107) !important ;
 }
 section {
     width:100% ;
     min-height: 100%;
-    background: url(../image/bg-removebg-preview.png), lightgray ;
+    background: url(../image/bg-removebg-preview.png), rgb(124, 121, 121) ;
     background-size:cover;
     background-position-x: center;
     background-position-y: center;
@@ -26,7 +26,7 @@ section {
 /*navbar*/
 .nav-item{
     font-family: Engravers MT;
-    font-size: small;
+    font-size: 14px;
 }
 
 .nav-item a:hover,
@@ -39,7 +39,8 @@ section {
 
 .dropdown-menu a {
     color: white;
-    background-color: #713B3B
+    background-color: #713B3B;
+    font-size: 12px;
 }
 .dropdown-menu a:active{
     color: red
@@ -48,8 +49,8 @@ section {
 /*Home*/
 .home {
     padding-top: 5rem;
+    color: rgb(255, 255, 255);
 }
-
 .img-thumbnail{
     background: transparent !important;
     border: 0 !important;
