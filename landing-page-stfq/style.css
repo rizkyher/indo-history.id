@@ -1,3 +1,14 @@
-a.nav-link:hover {
+nav {
+  content: "" !important;
+  background: rgba(255, 255, 255, 0.6) !important;
+  font-weight: bold;
+  box-shadow: 0 0 0 1px;
+}
+a.nav-link {
+  margin-right: 2rem !important;
+}
+
+a.nav-link:hover,
+a.nav-link:active {
   color: #f49944 !important;
 }
