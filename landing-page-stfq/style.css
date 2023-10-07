@@ -12,3 +12,23 @@ a.nav-link:hover,
 a.nav-link:active {
   color: #f49944 !important;
 }
+
+/* CONTENT */
+
+.carousel-inner img{
+  max-width: 100% !important;
+  height: 50rem !important;
+}
+.carousel-caption{
+  padding-bottom: 20rem !important;
+  text-align: left !important;
+}
+span{
+  color: #F98820;
+}
+
+button{
+  color: #fff;
+  background-color: #00ACDB;
+  border-radius: 8px !important;
+}
