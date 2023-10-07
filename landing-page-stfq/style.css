@@ -1,6 +1,6 @@
 nav {
   content: "" !important;
-  background: rgba(255, 255, 255, 0.6) !important;
+  background: rgba(255, 255, 255, 0.7) !important;
   font-weight: bold;
   box-shadow: rgba(92, 92, 92, 0.33) 0 0 0 2px;
 }
@@ -15,20 +15,20 @@ a.nav-link:active {
 
 /* CONTENT */
 
-.carousel-inner img{
+.carousel-inner img {
   max-width: 100% !important;
   height: 50rem !important;
 }
-.carousel-caption{
+.carousel-caption {
   padding-bottom: 20rem !important;
   text-align: left !important;
 }
-span{
-  color: #F98820;
+span {
+  color: #f98820;
 }
 
-button{
+button {
   color: #fff;
-  background-color: #00ACDB;
+  background-color: #00acdb;
   border-radius: 8px !important;
 }
