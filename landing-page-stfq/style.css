@@ -6,7 +6,7 @@ body {
 
 /*nav */
 nav {
-  content: "" !important;
+  content: '' !important;
   background: rgba(255, 255, 255, 0.7) !important;
   font-weight: bold;
   box-shadow: rgba(92, 92, 92, 0.33) 0 0 0 2px;
@@ -27,7 +27,6 @@ a.nav-link:active {
   height: 50rem !important;
 }
 .carousel-caption {
-  padding-bottom: 20rem !important;
   text-align: left !important;
 }
 span {
