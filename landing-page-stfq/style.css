@@ -1,3 +1,8 @@
+body {
+  background-color: #dcdcdc;
+}
+
+/*nav */
 nav {
   content: "" !important;
   background: rgba(255, 255, 255, 0.7) !important;
@@ -31,4 +36,39 @@ button {
   color: #fff;
   background-color: #00acdb;
   border-radius: 8px !important;
+}
+
+/* pendaftaran*/
+.btn {
+  background-color: #f49944;
+  margin-left: 1rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #fff !important;
+  color: #f49944 !important;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: #f49944 !important;
+}
+
+.text-center.mb-5 {
+  position: relative;
+  right: 7rem;
+}
+
+hr {
+  border-top: 5px solid rgb(255, 255, 255);
+  color: #fff;
+}
+
+.px-5 {
+  position: relative;
+  top: 8rem;
 }
