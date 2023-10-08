@@ -71,3 +71,17 @@ hr {
   position: relative;
   top: 8rem;
 }
+
+@media (min-width: 1200px) {
+  .tahfidz {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .webinar {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
