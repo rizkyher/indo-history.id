@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@100;300;400;700&display=swap');
+
 body {
   background-color: #dcdcdc;
 }
@@ -29,12 +31,6 @@ a.nav-link:active {
 }
 span {
   color: #f98820;
-}
-
-button {
-  color: #fff;
-  background-color: #00acdb;
-  border-radius: 8px !important;
 }
 
 /* pendaftaran*/
@@ -70,4 +66,18 @@ hr {
 .px-5 {
   position: relative;
   top: 8rem;
+}
+
+@media (min-width: 1200px) {
+  .tahfidz {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .webinar {
+    flex: 0 0 auto;
+    width: 100%;
+  }
 }
