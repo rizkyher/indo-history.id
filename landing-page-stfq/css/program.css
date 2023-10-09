@@ -31,6 +31,7 @@
   border: none !important;
 }
 
+
 /*PRODUK*/
 body {
   background-color:  #ffffff;
@@ -65,11 +66,21 @@ body {
   border: none !important;
 }
 
+.btn-daftar{
+  background-color: #1B71F1 !important;
+}
+
+a.btn-daftar:hover{
+  background-color: blue !important;
+  color: #fff !important;
+}
+
 .btn-wa{
   background-color: #15D212 !important;
   border: none !important;
 }
 
-.btn-wa:hover{
+a.btn-wa:hover{
   background-color: green !important;
+  color: #fff !important;
 }
