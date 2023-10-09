@@ -12,7 +12,7 @@ section #contact {
   font-weight: 500;
   margin-bottom: 20px;
   color: var(--color-secondary);
-  color: rgba(249, 136, 32, 1);
+  color: #4154f1;
 }
 
 #contact .section-header p {
