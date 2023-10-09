@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@100;300;400;700&display=swap");
 
+* {
+  scroll-behavior: smooth;
+}
+
 /* CONTENT */
 
 .carousel-inner img {
@@ -7,6 +11,7 @@
   height: 50rem !important;
 }
 .carousel-caption {
+  padding-left: 8rem !important;
   padding-bottom: 18rem !important;
   text-align: left !important;
 }
