@@ -1,7 +1,9 @@
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
-section {
+#about,
+#features,
+#services {
   padding: 60px 0;
   overflow: hidden;
 }
@@ -207,9 +209,6 @@ section {
   color: #fff;
 }
 
-.services .service-box:hover .icon {
-  background: #fff;
-}
 .g-4,
 .gy-4 {
   justify-content: center;
