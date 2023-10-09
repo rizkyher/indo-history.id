@@ -1,21 +1,21 @@
-section {
+section #contact {
   padding: 60px 0;
 }
 
-.section-header {
+#contact .section-header {
   text-align: center;
   padding-bottom: 40px;
 }
 
-.section-header h2 {
-  font-size: 48px;
-  font-weight: 300;
+#contact .section-header h2 {
+  font-size: 25px;
+  font-weight: 500;
   margin-bottom: 20px;
   color: var(--color-secondary);
   color: rgba(249, 136, 32, 1);
 }
 
-.section-header p {
+#contact .section-header p {
   margin: 0 auto;
   color: black;
 }
