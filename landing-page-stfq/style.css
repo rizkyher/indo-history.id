@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@100;300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@100;300;400;700&display=swap");
 
 body {
   background-color: #dcdcdc;
@@ -6,7 +6,7 @@ body {
 
 /*nav */
 nav {
-  content: '' !important;
+  content: "" !important;
   background: rgba(255, 255, 255, 0.7) !important;
   font-weight: bold;
   box-shadow: rgba(92, 92, 92, 0.33) 0 0 0 2px;
@@ -18,6 +18,24 @@ a.nav-link {
 a.nav-link:hover,
 a.nav-link:active {
   color: #f49944 !important;
+}
+
+.navbar.nav:hover,
+.nav-underline:active {
+  color: #f49944 !important ;
+}
+@media screen and (max-width: 992px) {
+  .navbar.nav:hover,
+  .nav-underline:active {
+    color: #f49944 !important ;
+  }
+  a.nav-link {
+    color: #fff !important;
+  }
+  a.nav-link:hover,
+  a.nav-link:active {
+    color: #f49944 !important;
+  }
 }
 
 /* CONTENT */
