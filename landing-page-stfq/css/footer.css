@@ -59,6 +59,8 @@
   background: #209dd8;
 }
 
+//atas ga penting
+
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #fff;
@@ -189,3 +191,6 @@
     padding-top: 4px;
   }
 }
+flex-direction: row;
+justify-content: space-between;
+align-items: baseline;
