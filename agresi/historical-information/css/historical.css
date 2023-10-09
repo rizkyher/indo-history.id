@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none
+  box-sizing: ;
+}
+/* bagian body */
+body {
+}
+/* judul */
+
+.judul {
+  margin-top: 3rem;
+  padding-left: 6rem;
+  justify-content: space-around;
+  color: rgb(170, 166, 161);
+}
+
+.garis-bawah {
+  width: 50rem;
+  margin-left: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* bagian card project */
+
+nav {
+  background: linear-gradient(90deg, #045582 33.43%, #4294c2 74.37%);
+}
+.daftar-sejarah {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -2rem;
+}
+.card {
+  margin-top: 6rem;
+}
+
+/* footer */
+
+footer {
+  margin-top: 10rem;
+}
+
+/* icon sosmed */
+.social-media {
+  display: flex;
+  gap: 25px;
+  font-size: 30px;
+  justify-content: center;
+}
+.Copyright {
+  padding-bottom: 2rem;
+}
+
+.Copyright span {
+  color: black;
+}
+.Copyright a {
+  text-decoration: none;
+}
