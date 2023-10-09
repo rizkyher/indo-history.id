@@ -30,3 +30,46 @@
   color: #fff !important;
   border: none !important;
 }
+
+/*PRODUK*/
+body {
+  background-color:  #ffffff;
+}
+.title {
+ 
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    box-shadow: none;
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 1em;
+    border: none;
+    border-radius: .28571429rem;
+    margin-top: 5rem;
+
+}
+
+.btn {
+  margin-top: auto;
+  border: none !important;
+}
+
+.btn-wa{
+  background-color: #15D212 !important;
+  border: none !important;
+}
+
+.btn-wa:hover{
+  background-color: green !important;
+}
