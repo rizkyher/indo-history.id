@@ -1,0 +1,78 @@
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+#bandung,
+#features {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.section-header h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+.section-header p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+}
+
+@media (max-width: 768px) {
+  .section-header p {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+/*--------------------------------------------------------------
+# STFQ Bandung
+--------------------------------------------------------------*/
+.bandung {
+  background-color: #f6f9ff;
+}
+
+.bandung .content {
+  padding: 40px;
+}
+
+.bandung h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #012970;
+}
+.bandung p {
+  margin: 15px 0 -15px 0;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #f49944;
+  margin-left: 1rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #fff !important;
+  color: #f49944 !important;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: #f49944 !important;
+}

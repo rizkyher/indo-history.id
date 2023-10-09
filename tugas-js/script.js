@@ -21,7 +21,7 @@ function update_queue(queue){
     } else if (queue=="in"){
         antrian = antrian + 1
     } 
-}
+}``
 
 function exit_room() {
     total_in_room = total_in_room - total_in_room - 1
@@ -63,7 +63,6 @@ function hour_in(hour){
                         
 
                 }
-
         } else {
             alert("Maaf Klinik telah mencapai batas maksimal pasien harian")
         }
