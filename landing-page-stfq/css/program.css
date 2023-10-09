@@ -23,7 +23,7 @@
   color: #f98820;
 }
 
-.webinar{
+.webinar {
   font-size: 2.8em !important;
 }
 
@@ -36,37 +36,31 @@
   margin: 0 !important;
 }
 
-a.btn-edit:hover{
+a.btn-edit:hover {
   color: #00acdb !important;
 }
 
 /*PRODUK*/
-body {
-  background-color:  #ffffff;
-}
 .title {
- 
-    margin-bottom: 50px;
-    text-transform: uppercase;
+  margin-bottom: 50px;
+  text-transform: uppercase;
 }
 
 .card-block {
-    font-size: 1em;
-    position: relative;
-    margin: 0;
-    padding: 1em;
-    border: none;
-    box-shadow: none;
-     
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  box-shadow: none;
 }
 .card {
-    font-size: 1em;
-    overflow: hidden;
-    padding: 1em;
-    border: none;
-    border-radius: .28571429rem;
-    margin-top: 5rem;
-
+  font-size: 1em;
+  overflow: hidden;
+  padding: 1em;
+  border: none;
+  border-radius: 0.28571429rem;
+  margin-top: 5rem;
 }
 
 .btn {
@@ -74,21 +68,21 @@ body {
   border: none !important;
 }
 
-.btn-daftar{
-  background-color: #1B71F1 !important;
+.btn-daftar {
+  background-color: #1b71f1 !important;
 }
 
-a.btn-daftar:hover{
+a.btn-daftar:hover {
   background-color: blue !important;
   color: #fff !important;
 }
 
-.btn-wa{
-  background-color: #15D212 !important;
+.btn-wa {
+  background-color: #15d212 !important;
   border: none !important;
 }
 
-a.btn-wa:hover{
+a.btn-wa:hover {
   background-color: green !important;
   color: #fff !important;
 }

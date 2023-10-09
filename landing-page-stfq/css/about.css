@@ -41,7 +41,7 @@
 # About
 --------------------------------------------------------------*/
 .about {
-  background-color: #f6f9ff;
+  background-color: #f7f9fc;
 }
 
 .about .content {
@@ -127,6 +127,9 @@
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  background-color: #f7f9fc;
+}
 .services .section-header h2 {
   font-size: 25px;
 }
