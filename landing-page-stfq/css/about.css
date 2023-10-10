@@ -11,12 +11,13 @@
 .section-header {
   text-align: center;
   padding-bottom: 40px;
+  font-style: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
 }
 
 .section-header h2 {
-  font-size: 13px;
+  font-weight: 500;
+  font-size: 32px;
   letter-spacing: 1px;
-  font-weight: 700;
   margin: 0;
   color: #4154f1;
   text-transform: uppercase;
@@ -56,8 +57,8 @@
 }
 
 .about h2 {
-  font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 32px;
   color: #012970;
 }
 
@@ -76,7 +77,6 @@
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-
 .features .feture-tabs {
   margin-top: 5px;
   margin-left: 30px;
@@ -127,11 +127,16 @@
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#services {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
 .services {
   background-color: #f7f9fc;
 }
 .services .section-header h2 {
   font-size: 25px;
+  color: #012970;
 }
 .services .service-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
