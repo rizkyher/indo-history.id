@@ -114,3 +114,118 @@ a.btn-wa:hover{
   color: #fff !important;
 }
 
+/*CSS GALERI*/
+/*===========================================================================*/
+
+.galeri{
+
+  background-color: #F7F9FC !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 1rem;
+
+}
+
+.card-container:hover{
+
+  transform: scale(1.1) !important;
+
+}
+
+.card-container:hover::before{
+
+  opacity: 1 !important ;
+
+}
+
+.card-container:hover .card-title{
+
+  opacity: 1 !important;
+  transform: translateY(1) !important;
+
+}
+
+.card-container:before{
+
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  display: block !important;
+  width: 100% !important; 
+  height: 100% !important;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.605), transparent) !important;
+  z-index: 2 !important;
+  transition: 0.5s !important;
+  opacity: 0 !important;
+  padding: 1rem 0 !important;
+}
+
+
+.card-title{
+
+ 
+  color:white;
+  position: relative;
+  top: 108px;
+  z-index: 3;
+  opacity: 0;
+  transform: scale(1);
+  transition: 0.5s;
+
+}
+
+.card-text{
+
+  position: relative;
+  top: 0;
+  color: white;
+
+
+}
+
+.galeri-nav{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  right: 15px;
+}
+
+
+.galeri-nav li {
+
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.galeri-nav li a{
+
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+
+
+
+}
+
+.galeri-nav a:hover{
+
+  color: #F98820;
+
+}
+/*BATAS CSS GALERI CARD*/
+/*===========================================================================*/
