@@ -7,8 +7,45 @@
     filter: brightness(50%) !important;
 }
 
-.carousel {
-    height: 100vh !important;
+
+
+/* caption slide */
+
+
+/* carousel caption */
+
+
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: -13.75vw;
+    left: 15%;
+   
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h1 {
+    font-size: 3vw !important;
+    font-weight: 700 !important;
+    font-style: italic !important;
+}
+.carousel-caption p {
+    font-size: 1.2vw !important;
+}
+.alquran {
+    color: #F98820 !important;
+}
+.shortcourse {
+    color: #F98820 !important;
+}
+
+/* btn */
+
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
 }
 
 footer {

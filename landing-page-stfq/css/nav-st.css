@@ -327,3 +327,37 @@
   color: var(--color-primary);
   line-height: 0;
 }
+
+/*nav */
+nav {
+  content: "" !important;
+  background: rgba(255, 255, 255, 0.7) !important;
+  font-weight: bold;
+  box-shadow: rgba(92, 92, 92, 0.33) 0 0 0 2px;
+}
+a.nav-link {
+  margin-right: 2rem !important;
+}
+
+a.nav-link:hover,
+a.nav-link:active {
+  color: #f49944 !important;
+}
+
+.navbar.nav:hover,
+.nav-underline:active {
+  color: #f49944 !important ;
+}
+@media screen and (max-width: 992px) {
+  .navbar.nav:hover,
+  .nav-underline:active {
+    color: #f49944 !important ;
+  }
+  a.nav-link {
+    color: black !important;
+  }
+  a.nav-link:hover,
+  a.nav-link:active {
+    color: #f49944 !important;
+  }
+}
