@@ -1,41 +1,9 @@
-/*--------------------------------------------------------------
-# Sections
---------------------------------------------------------------*/
 #bandung,
 #features {
   padding: 60px 0;
   overflow: hidden;
 }
 
-.section-header {
-  text-align: center;
-  padding-bottom: 40px;
-}
-
-.section-header h2 {
-  font-size: 13px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  margin: 0;
-  color: #4154f1;
-  text-transform: uppercase;
-}
-
-.section-header p {
-  margin: 10px 0 0 0;
-  padding: 0;
-  font-size: 38px;
-  line-height: 42px;
-  font-weight: 700;
-  color: #012970;
-}
-
-@media (max-width: 768px) {
-  .section-header p {
-    font-size: 28px;
-    line-height: 32px;
-  }
-}
 /*--------------------------------------------------------------
 # STFQ Bandung
 --------------------------------------------------------------*/
@@ -52,27 +20,53 @@
   font-weight: 700;
   color: #012970;
 }
+
 .bandung p {
   margin: 15px 0 -15px 0;
   line-height: 24px;
   font-size: 18px;
 }
 
+.bandung .p2 {
+  margin: 15px 0 15px 0;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+/*BUTTON*/
 .btn {
-  background-color: #f49944;
-  margin-left: 1rem;
+  margin-top: auto;
+  margin-left: 0 !important;
+  color: #fff !important;
 }
 
-.btn:hover,
-.btn:active {
-  background-color: #fff !important;
-  color: #f49944 !important;
+.btn-daftar {
+  background-color: #1b71f1 !important;
+  font-size: 1.1em !important;
+  width: 30% !important;
+  padding-top: 0.2rem !important;
 }
 
-.btn-check:checked + .btn,
-.btn.active,
-.btn.show,
-.btn:first-child:active,
-:not(.btn-check) + .btn:active {
-  color: #f49944 !important;
+a.btn-daftar:hover {
+  background-color: blue !important;
+  color: #fff !important;
+}
+.icon-daftar {
+  margin-right: 5% !important;
+}
+
+.btn-wa {
+  font-size: 1.1em !important;
+  width: 23% !important;
+  background-color: #15d212 !important;
+  border: none !important;
+  padding-top: 0.2rem !important;
+}
+
+.icon-wa {
+  margin-right: 5% !important;
+}
+a.btn-wa:hover {
+  background-color: green !important;
+  color: #fff !important;
 }
