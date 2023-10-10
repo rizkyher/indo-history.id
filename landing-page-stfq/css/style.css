@@ -2,13 +2,13 @@
 @import url("about.css");
 @import url("program.css");
 @import url("kontak.css");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 
 /*CSS*/
 body {
   background-color: #fff;
-overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 /*nav */
@@ -37,7 +37,7 @@ a.nav-link:active {
     color: #f49944 !important ;
   }
   a.nav-link {
-    color: #fff !important;
+    color: black !important;
   }
   a.nav-link:hover,
   a.nav-link:active {
@@ -67,7 +67,6 @@ a.nav-link:active {
   color: #f49944 !important;
 }
 
-
 .text-center.mb-5 {
   position: relative;
   right: 7rem;
@@ -84,5 +83,3 @@ hr {
 }
 
 /*GALERI CSS*/
-
-
