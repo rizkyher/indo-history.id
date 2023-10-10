@@ -4,52 +4,6 @@
 
 /* CONTENT */
 
-.carousel-inner img {
-  max-width: 100% !important;
-  height: 50rem !important;
-}
-.carousel-caption {
-  padding-left: 8rem !important;
-  padding-bottom: 18rem !important;
-  text-align: left !important;
-}
-.carousel-caption h2 {
-  font-family: "inter", sans-serif !important;
-  font-weight: 1000 !important;
-}
-.qm {
-  color: #f98820;
-}
-
-.webinar {
-  font-size: 1.3em !important;
-}
-
-
-.btn-edit {
-  text-decoration: none !important;
-  background-color: #00acdb !important;
-  font-family: "poppins" sans-serif !important;
-  font-weight: 700 !important;
-  color: #fff !important;
-  border: none !important;
-  margin: 0 !important;
-}
-
-.btn-edit:hover{
-  color: #fff !important;
-  background-color: #fff !important;
-}
-
-.btn-edit:hover{
-  color: #fff !important;
-  background-color: #fff !important;
-}
-
-a.btn-edit:hover {
-  color: #00acdb !important;
-}
-
 /*PRODUK*/
 .title {
   margin-bottom: 50px;
