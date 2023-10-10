@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@100;300;400;700&display=swap");
 
-* {
-  scroll-behavior: smooth;
-}
 
 /* CONTENT */
 
@@ -27,13 +24,25 @@
   font-size: 2.8em !important;
 }
 
+
 .btn-edit {
+  text-decoration: none !important;
   background-color: #00acdb !important;
   font-family: "poppins" sans-serif !important;
   font-weight: 700 !important;
   color: #fff !important;
   border: none !important;
+  border-radius: 0.3rem !important;
   margin: 0 !important;
+  padding-bottom: 0.6rem !important;
+  padding-top: 0.5rem !important;
+  padding-right: 0.7rem !important;
+  padding-left: 0.7rem !important;
+}
+
+.btn-edit:hover{
+  color: #fff !important;
+  background-color: #fff !important;
 }
 
 a.btn-edit:hover {
@@ -63,26 +72,42 @@ a.btn-edit:hover {
   margin-top: 5rem;
 }
 
-.btn {
-  margin-top: auto;
-  border: none !important;
+/*.btn-daftar {
 }
 
-.btn-daftar {
+/*BUTTON*/
+.btn{
+  margin-top: auto;
+  margin-left: 0 !important;
+}
+
+.btn-daftar{
   background-color: #1b71f1 !important;
+  font-size: 1.1em !important;
+  width: 30% !important;
+  padding-top: 0.2rem !important;
 }
 
 a.btn-daftar:hover {
   background-color: blue !important;
   color: #fff !important;
 }
-
-.btn-wa {
-  background-color: #15d212 !important;
-  border: none !important;
+.icon-daftar{
+  margin-right: 5% !important;
 }
 
-a.btn-wa:hover {
+.btn-wa{
+  font-size: 1.1em !important;
+  width: 23% !important;
+  background-color: #15D212 !important;
+  border: none !important;
+  padding-top: 0.2rem !important;
+}
+
+.icon-wa{
+  margin-right: 5% !important;
+}
+a.btn-wa:hover{
   background-color: green !important;
   color: #fff !important;
 }
