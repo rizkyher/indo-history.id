@@ -58,21 +58,40 @@
   font-size: 18px;
 }
 
+/*BUTTON*/
 .btn {
-  background-color: #f49944;
-  margin-left: 1rem;
+  margin-top: auto;
+  margin-left: 0 !important;
+  color: #fff !important;
 }
 
-.btn:hover,
-.btn:active {
-  background-color: #fff !important;
-  color: #f49944 !important;
+.btn-daftar {
+  background-color: #1b71f1 !important;
+  font-size: 1.1em !important;
+  width: 30% !important;
+  padding-top: 0.2rem !important;
 }
 
-.btn-check:checked + .btn,
-.btn.active,
-.btn.show,
-.btn:first-child:active,
-:not(.btn-check) + .btn:active {
-  color: #f49944 !important;
+a.btn-daftar:hover {
+  background-color: blue !important;
+  color: #fff !important;
+}
+.icon-daftar {
+  margin-right: 5% !important;
+}
+
+.btn-wa {
+  font-size: 1.1em !important;
+  width: 23% !important;
+  background-color: #15d212 !important;
+  border: none !important;
+  padding-top: 0.2rem !important;
+}
+
+.icon-wa {
+  margin-right: 5% !important;
+}
+a.btn-wa:hover {
+  background-color: green !important;
+  color: #fff !important;
 }
