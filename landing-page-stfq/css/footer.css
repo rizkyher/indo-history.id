@@ -1,6 +1,11 @@
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+* {
+  padding: 0;!important
+  margin: 0;!important
+}
+
 #footer {
   margin-top: 200px;
   font-size: 14px;
@@ -75,6 +80,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+  padding: 0;
+  margin: 0;
 }
 
 #footer .footer-top .footer-contact {
@@ -168,14 +175,14 @@
 }
 
 #footer .footer-bottom {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 19px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
   background: #37517e;
   color: #fff;
   width: 100%;
-  margin: 0;
-  padding-left: 100px;
-  padding-right: 100px;
+  
 }
 
 #footer .copyright {

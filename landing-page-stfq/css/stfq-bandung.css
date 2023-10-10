@@ -4,6 +4,13 @@
   overflow: hidden;
 }
 
+/* HEADER */
+.header {
+  background: #fff;
+  padding: 15px 0;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+
 /*--------------------------------------------------------------
 # STFQ Bandung
 --------------------------------------------------------------*/
@@ -33,7 +40,7 @@
   font-size: 18px;
 }
 
-/*BUTTON*/
+/* BUTTON */
 .btn {
   margin-top: auto;
   margin-left: 0 !important;
