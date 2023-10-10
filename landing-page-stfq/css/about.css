@@ -80,7 +80,6 @@
 .features .feture-tabs {
   margin-top: 5px;
   margin-left: 30px;
-  padding-top: 4rem;
 }
 
 .features .feture-tabs h3 {
@@ -129,7 +128,7 @@
 # Services
 --------------------------------------------------------------*/
 #services {
-  padding-top: 10rem;
+  padding-top: 7rem;
   padding-bottom: 10rem;
 }
 .services {

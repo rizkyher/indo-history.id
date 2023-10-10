@@ -5,6 +5,7 @@
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  background-color: #ffffff88;
 }
 
 .header.header-scrolled {
@@ -38,6 +39,7 @@ a.logo {
 }
 .navbar i {
   display: none;
+  margin-right: 2rem;
 }
 .navbar ul {
   margin: 0;

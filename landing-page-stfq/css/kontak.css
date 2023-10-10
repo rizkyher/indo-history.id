@@ -5,6 +5,7 @@ section #contact {
 #contact .section-header {
   text-align: center;
   padding-bottom: 10px;
+  padding-top: 0;
   margin-top: 5rem;
 }
 
