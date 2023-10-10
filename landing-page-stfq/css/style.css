@@ -67,13 +67,6 @@ a.nav-link:active {
   color: #f49944 !important;
 }
 
-.btn-check:checked + .btn,
-.btn.active,
-.btn.show,
-.btn:first-child:active,
-:not(.btn-check) + .btn:active {
-  color: #f49944 !important;
-}
 
 .text-center.mb-5 {
   position: relative;
