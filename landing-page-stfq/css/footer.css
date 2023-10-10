@@ -66,6 +66,12 @@
   background: #fff;
 }
 
+#footer .row {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
@@ -191,6 +197,3 @@
     padding-top: 4px;
   }
 }
-flex-direction: row;
-justify-content: space-between;
-align-items: baseline;
