@@ -45,6 +45,11 @@
   background-color: #fff !important;
 }
 
+.btn-edit:hover{
+  color: #fff !important;
+  background-color: #fff !important;
+}
+
 a.btn-edit:hover {
   color: #00acdb !important;
 }
@@ -79,6 +84,7 @@ a.btn-edit:hover {
 .btn{
   margin-top: auto;
   margin-left: 0 !important;
+  color: #fff !important;
 }
 
 .btn-daftar{
