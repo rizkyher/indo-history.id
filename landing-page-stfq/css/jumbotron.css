@@ -2,7 +2,7 @@
 /* carousel */
 
 .carousel-item img {
-    width: 100% !important;
+    width: 70% !important;
     height: auto !important;
     filter: brightness(50%) !important;
 }
