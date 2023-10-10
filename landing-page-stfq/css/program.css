@@ -34,10 +34,6 @@
   border: none !important;
   border-radius: 0.3rem !important;
   margin: 0 !important;
-  padding-bottom: 0.6rem !important;
-  padding-top: 0.5rem !important;
-  padding-right: 0.7rem !important;
-  padding-left: 0.7rem !important;
 }
 
 .btn-edit:hover{
@@ -79,6 +75,7 @@ a.btn-edit:hover {
 .btn{
   margin-top: auto;
   margin-left: 0 !important;
+  color: #fff !important;
 }
 
 .btn-daftar{
