@@ -289,6 +289,7 @@ a.logo {
 
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
+  display: block;
 }
 
 .navbar-mobile .dropdown ul a:hover,
@@ -298,5 +299,12 @@ a.logo {
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
-  display: block;
+  display: block !important;
+}
+
+.bx-menu:before {
+  /* content: "\eb5f"; */
+}
+.bi-x::before {
+  content: "\f62a" !important;
 }
