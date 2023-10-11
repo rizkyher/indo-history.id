@@ -40,7 +40,7 @@
   font-size: 18px;
 }
 
-/* BUTTON */
+/*BUTTON*/
 .btn {
   margin-top: auto;
   margin-left: 0 !important;
@@ -49,8 +49,8 @@
 
 .btn-daftar {
   background-color: #1b71f1 !important;
-  font-size: 1.1em !important;
-  width: 30% !important;
+  font-size: 16px !important;
+  width: 200px !important;
   padding-top: 0.2rem !important;
 }
 
@@ -63,8 +63,8 @@ a.btn-daftar:hover {
 }
 
 .btn-wa {
-  font-size: 1.1em !important;
-  width: 23% !important;
+  font-size: 16px !important;
+  width: 150px !important;
   background-color: #15d212 !important;
   border: none !important;
   padding-top: 0.2rem !important;
@@ -76,4 +76,22 @@ a.btn-daftar:hover {
 a.btn-wa:hover {
   background-color: green !important;
   color: #fff !important;
+}
+
+@media screen and (max-width: 991px) {
+  .btn-wa {
+    margin-top: 10px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .btn-wa {
+    margin-top: 0px !important;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  .btn-wa {
+    margin-top: 10px !important;
+  }
 }
