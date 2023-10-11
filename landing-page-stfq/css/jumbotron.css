@@ -1,53 +1,48 @@
 
 /* carousel */
+.carousel-item {
+    height: 725px !important;
+}
 
 .carousel-item img {
-    width: 100% !important;
-    height: auto !important;
+    height: 100% !important;
     filter: brightness(50%) !important;
+    object-fit: cover !important;
 }
 
 
 
-/* caption slide */
-
-
-/* carousel caption */
-
-
-
-.carousel-caption {
-    position: absolute;
-    right: 15%;
-    bottom: 8.25vw;
-    left: 15%;
-   
-    color: #fff;
-    text-align: center;
-}
+/* judul slide */
 .carousel-caption h1 {
-    font-size: 3vw !important;
-    font-weight: 700 !important;
+    font-size: 2rem !important;
+    color: #ffffff !important;
+    padding-top: 13rem !important;
+    font-weight: 800 !important;
     font-style: italic !important;
 }
+
 .carousel-caption p {
-    font-size: 1.2vw !important;
+
 }
-.alquran {
+.text-quran {
     color: #F98820 !important;
 }
-.shortcourse {
-    color: #F98820 !important;
+.carousel-caption p {
+    font-size: 0.9rem !important;
 }
 
 /* btn */
-
+.btn {
+   background-color: #1471eb !important;
+   border: #1471eb !important;
+}
 .btn:hover {
-    color: var(--bs-btn-hover-color);
-    background-color: var(--bs-btn-hover-bg);
-    border-color: var(--bs-btn-hover-border-color);
+    color: #ffffff !important;
+    background-color: #3485ee !important;
+    border: 1px solid #3485ee  !important;
 }
 
+/* footer */
 footer {
     background-color: rgb(255, 255, 255) !important;
     height: fit-content !important;
@@ -95,3 +90,10 @@ footer {
     font-weight: 400 !important;
     margin: 0;
 }
+
+/* responsive */
+@include media-breakpoint-down(md) {
+    .btn {
+        btn-m
+    }
+ }
