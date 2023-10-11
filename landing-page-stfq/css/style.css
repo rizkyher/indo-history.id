@@ -7,9 +7,11 @@
 @import url("nav2.css");
 @import url("footer.css");
 /*CSS*/
+
 body {
   background-color: #fff;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* CONTENT */

@@ -12,6 +12,7 @@
   background: #fff;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  width: 100% !important;
 }
 
 .header .logo {
@@ -199,7 +200,6 @@ a.logo {
   line-height: 0;
   transition: 0.5s;
 }
-
 .mobile-nav-toggle.bi-x {
   color: #fff;
 }

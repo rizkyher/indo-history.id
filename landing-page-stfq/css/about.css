@@ -5,7 +5,7 @@
 #features,
 #services {
   padding: 60px 0;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .section-header {
@@ -43,6 +43,7 @@
 --------------------------------------------------------------*/
 .about {
   background-color: #f7f9fc;
+  width: 100%;
 }
 
 .about .content {
@@ -69,7 +70,6 @@
 }
 
 .a .about img {
-  max-width: 100% !important;
   margin: 0;
   width: 28vw !important;
 }
@@ -79,7 +79,6 @@
 --------------------------------------------------------------*/
 .features .feture-tabs {
   margin-top: 5px;
-  margin-left: 30px;
 }
 
 .features .feture-tabs h3 {
@@ -106,7 +105,7 @@
   font-weight: 600;
   color: #012970;
   padding: 12px 0;
-  margin-right: 25px;
+
   margin-bottom: -2px;
   border-radius: 0;
 }
