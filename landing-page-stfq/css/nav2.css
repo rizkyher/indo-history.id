@@ -6,6 +6,7 @@
   z-index: 997;
   padding: 20px 0;
   background-color: #ffffff88;
+  width: 100% !important;
 }
 
 .header.header-scrolled {
