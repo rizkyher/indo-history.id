@@ -1,15 +1,11 @@
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-* {
-  padding: 0;!important
-  margin: 0;!important
-}
 
 #footer {
-  margin-top: 200px;
+  margin-top: 0;
   font-size: 14px;
-  background: #ffff;
+  background-color: #f7f9fc !important ;
 }
 
 #footer img {
@@ -182,11 +178,14 @@
   background: #37517e;
   color: #fff;
   width: 100%;
-  
 }
 
 #footer .copyright {
-  float: left;
+  background-color: #37517e;
+}
+
+#footer .copyright p {
+  padding-top: 1rem;
 }
 
 #footer .credits {
