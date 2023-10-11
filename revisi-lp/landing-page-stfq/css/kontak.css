@@ -1,0 +1,85 @@
+section #contact {
+  padding: 60px 0;
+}
+
+#contact .section-header {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 0;
+  margin-top: 5rem;
+}
+
+#contact .section-header h2 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: var(--color-secondary);
+  color: #012970;
+}
+
+#contact .section-header p {
+  margin: 0 auto;
+  color: black;
+}
+.contact .map iframe {
+  margin-top: 10px;
+  border: 0;
+  width: 100%;
+  height: 400px;
+}
+
+.contact .info-wrap {
+  padding: 30px;
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+/*# Contact --------------------------------------------------------------*/
+.contact .info-wrap {
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #3498db;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #eaf4fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #384046;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #65747f;
+}
+
+.contact .info:hover i {
+  background: #3498db;
+  color: #fff;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
