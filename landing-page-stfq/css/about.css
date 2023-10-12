@@ -126,6 +126,16 @@
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+@media screen and (max-width: 480px){
+  
+  #services {
+    
+    padding-top: 23rem !important;
+
+  }
+
+}
+
 #services {
   padding-top: 7rem;
   padding-bottom: 10rem;
